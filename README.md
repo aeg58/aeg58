@@ -12,11 +12,11 @@ I'm a Software Engineering student based in Istanbul, focused on backend develop
 
 ## Selected Work
 
-### Event Management and Reservation System
+### [Eventra — Event & Venue Management System](https://github.com/aeg58/eventra-case-study)
 
 A real-world internal platform for managing reservations, customers, payments, reporting, and configurable forms. A key focus was keeping reservation fields driven by system settings, making the product more modular and adaptable to changing operational needs.
 
-### Bilingual Publishing Platform
+### [BAOBAB — Bilingual Publishing Platform](https://github.com/aeg58/baobab-case-study)
 
 A Turkish and English content and catalog management platform for a publishing company. It includes workflows for books, authors, events, editorial content, media, newsletters, and administrative operations. The project is currently in development.
 
