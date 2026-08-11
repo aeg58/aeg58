@@ -27,6 +27,10 @@ A Turkish and English content and catalog management platform for a publishing c
 **Frontend:** React, Tailwind CSS  
 **Tools & Infrastructure:** Git, GitHub, Linux, Nginx, PM2
 
+## Certifications
+
+- [HackerRank SQL (Basic)](https://www.hackerrank.com/certificates/DA277BC1D6B1) — Issued August 2026
+
 ## Connect
 
 [LinkedIn](https://www.linkedin.com/in/alierdemgedik/) · [Email](mailto:alierdemgdk58@gmail.com)
