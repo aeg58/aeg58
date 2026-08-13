@@ -27,9 +27,11 @@ A Turkish and English content and catalog management platform for a publishing c
 **Frontend:** React, Tailwind CSS  
 **Tools & Infrastructure:** Git, GitHub, Linux, Nginx, PM2
 
-## Certifications
+## Verified Credentials
 
-- [HackerRank SQL (Basic)](https://www.hackerrank.com/certificates/DA277BC1D6B1) — Issued August 2026
+- [HackerRank SQL (Intermediate)](https://www.hackerrank.com/certificates/6b5095756085) — complex joins, unions, and subqueries
+- [HackerRank SQL (Basic)](https://www.hackerrank.com/certificates/DA277BC1D6B1) — simple queries, relationships, and aggregations
+- English proficiency: B2 (FSMEPT 71/100)
 
 ## Connect
 
