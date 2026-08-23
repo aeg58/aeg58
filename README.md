@@ -43,12 +43,12 @@ Individual coursework, cleaned up and documented as standalone repositories. Eac
 
 ## Technologies
 
-**Languages:** TypeScript, JavaScript, Python, Java, C, C++, SQL
-**Backend & Data:** Next.js, Node.js, REST APIs, Prisma, MySQL, SQLite, Auth.js, Zod
-**Frontend:** React, Tailwind CSS
-**Data & Analysis:** NumPy, pandas, scikit-learn, SciPy, Matplotlib, LaTeX
-**Systems:** POSIX threads, Linux system calls, signal handling, algorithm design and complexity analysis
-**Practice:** Unit testing, CI, relational data modeling, requirements analysis and UML
+**Languages:** TypeScript, JavaScript, Python, Java, C, C++, SQL  
+**Backend & Data:** Next.js, Node.js, REST APIs, Prisma, MySQL, SQLite, Auth.js, Zod  
+**Frontend:** React, Tailwind CSS  
+**Data & Analysis:** NumPy, pandas, scikit-learn, SciPy, Matplotlib, LaTeX  
+**Systems:** POSIX threads, Linux system calls, signal handling, algorithm design and complexity analysis  
+**Practice:** Unit testing, CI, relational data modeling, requirements analysis and UML  
 **Tools & Infrastructure:** Git, GitHub Actions, Linux, Nginx, PM2, Maven, Make
 
 ## Verified Credentials
