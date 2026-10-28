@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="Measured numbers from five Black Wool projects">
+  <style>
+    .card { fill: #15232b; stroke: #26363f; stroke-width: 1.5; }
+    .num { font: 700 44px "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #e8eef0; }
+    .unit { font: 600 15px "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; fill: #5cb8d6; }
+    .src { font: 400 13px ui-monospace, Menlo, Consolas, monospace; fill: #86a0aa; }
+  </style>
+  <g transform="translate(0 10)">
+    <rect class="card" x="1" y="0" width="286" height="128" rx="12"/>
+    <text class="num" x="24" y="56">104</text><text class="unit" x="24" y="84">permissions · 36 sections</text><text class="src" x="24" y="110">Eventra · RBAC catalogue</text>
+    <rect class="card" x="305" y="0" width="286" height="128" rx="12"/>
+    <text class="num" x="328" y="56">0</text><text class="unit" x="328" y="84">confidently-wrong fields</text><text class="src" x="328" y="110">Fortuna Moda · 24-chat eval</text>
+    <rect class="card" x="609" y="0" width="286" height="128" rx="12"/>
+    <text class="num" x="632" y="56">614</text><text class="unit" x="632" y="84">orders audited in October</text><text class="src" x="632" y="110">Fermente · payout audit</text>
+    <rect class="card" x="913" y="0" width="286" height="128" rx="12"/>
+    <text class="num" x="936" y="56">16 / 19</text><text class="unit" x="936" y="84">tools read-only</text><text class="src" x="936" y="110">Black Tool · gated writes</text>
+  </g>
+</svg>
