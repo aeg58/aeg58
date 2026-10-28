@@ -1,59 +1,67 @@
 # Hi, I'm Ali Erdem Gedik 👋
 
-### Junior Software Developer | Software Engineering Student
+### Junior Software Developer · Software Engineering Student (Istanbul)
 
-I'm a Software Engineering student based in Istanbul, focused on backend development and business-oriented web systems. I enjoy turning real operational needs into maintainable software and improving products through feedback, iteration, and real-world use.
+Third-year Software Engineering student in a fully English-taught program, and part-time Junior
+Software Engineer at **Black Wool** since January 2026. I build business systems for real clients —
+from the first requirements meeting to the release pipeline and support after go-live — and I care
+most about the parts that keep them honest: permissions, data integrity, privacy and measured results.
 
-- 💻 Building backend-oriented web applications with Next.js, TypeScript, Prisma, and MySQL
-- 🧩 Interested in modular architecture, API design, databases, and business process automation
-- 🖥️ Comfortable deploying and maintaining applications on Linux servers with Nginx and PM2
-- ⚙️ Also working close to the machine in C and C++ — POSIX threads, Linux system calls, graph algorithms
-- 🔬 Measuring rather than assuming: benchmarks with real numbers, unit tests in CI, honest reporting of results
-- 🌍 English at B2 level; studying in a fully English-taught degree program
+- 🏗️ Five client and internal products built at Black Wool — two in daily client use since autumn 2026
+- 🔐 Authorization models, transaction-safe booking, read-only integrations, approval-gated writes
+- 🚢 Docker images built by GitHub Actions, served behind Caddy on self-managed Linux servers
+- 📏 Measuring instead of assuming: every number in my case studies is counted from code or the live system
+- ⚙️ Close to the machine too: C and C++ — POSIX threads, Linux system calls, graph algorithms
 
-## Selected Work
+---
 
-Production products built at Black Wool. Source code is private; these are public case studies.
+## Selected work · Black Wool
 
-### [Eventra — Event & Venue Management System](https://github.com/aeg58/eventra-case-study)
+Source code is private; each link is a public case study with masked screenshots and diagrams.
 
-A B2B internal platform in daily use at an event and wedding venue, spanning roughly **65 API endpoints and 40 relational data models**: reservations, customers, payments and cash tracking, reporting, role-based access, PDF contracts and Excel exports.
+| Project | What it is | Highlights |
+|---|---|---|
+| **[Eventra](https://github.com/aeg58/eventra-case-study)**<br/><sub>Project Lead & Developer · in production since Sep 2026</sub> | Reservation, finance and operations platform for a wedding & event venue, plus a QR menu and digital business card | 56 models · 109 API routes · 104 permissions across 36 sections · double booking prevented with row locks inside the transaction |
+| **[BAOBAB](https://github.com/aeg58/baobab-case-study)**<br/><sub>Developer · live since Oct 2026</sub> | Public catalogue and editorial admin for [Baobab Yayınları](https://baobabyayinlari.com), a comics publisher | 39 models · page-flip book previews · slug history with permanent redirects · JSON-LD in 12 schema.org types |
+| **[Fermente Paneli](https://github.com/aeg58/fermente-panel-case-study)**<br/><sub>Project Lead & Developer · on its own server</sub> | Read-only sales, profit and payout-audit dashboard for a brand selling on Trendyol and Hepsiburada | GET-only collector · no customer personal data stored · every marketplace deduction checked against its own rules |
+| **[Fortuna Moda](https://github.com/aeg58/fortuna-moda-case-study)**<br/><sub>Project Lead & Developer · panel live since Oct 2026</sub> | Turns WhatsApp and Instagram orders into checked DHL eCommerce shipments | AI reads, code decides · 0 "confidently wrong" fields on the evaluation set · 236 test cases |
+| **[Black Tool](https://github.com/aeg58/black-tool-case-study)**<br/><sub>Project Lead & Developer · internal tool</sub> | MCP gateway that lets an AI assistant read client ad and marketplace accounts, brand by brand | 19 tools, 16 read-only · writes only behind an exact approval phrase, created paused · 424 test cases |
 
-The demanding part was making the reservation form **settings-driven** — field definitions, visibility rules and option lists come from admin configuration, so a new venue requirement needs no schema migration and no code change.
+**Stack across these projects:** Next.js 16 · React 19 · TypeScript · Prisma 7 · MySQL · PostgreSQL ·
+SQLite · Auth.js · Zod · Docker · GitHub Actions · Caddy · Node test runner / Vitest
 
-### [BAOBAB — Bilingual Publishing Platform](https://github.com/aeg58/baobab-case-study)
+---
 
-A Turkish/English catalog and editorial platform for a publisher, over **14 relational models**, with each language modeled at the data layer rather than treated as interface-label translation. Covers books, authors, events, articles, media, retail points, subscribers and per-page SEO.
-
-## Systems, Algorithms & Data
+## Systems, algorithms & data
 
 Individual coursework, cleaned up and documented as standalone repositories. Each README states the course context.
 
 | Repository | Language | What it shows |
 |---|---|---|
 | [posix-pi-benchmark](https://github.com/aeg58/posix-pi-benchmark) | C | Serial vs POSIX threads, measured: **3.67× at 4 threads** on 4 cores, flat beyond — the plateau explained as the hardware limit, not a defect |
-| [recursive-file-copy](https://github.com/aeg58/recursive-file-copy) | C | `cp -r` over raw Linux system calls, interrupt-safe: `SIGINT` unlinks the partially written file instead of leaving a truncated one |
+| [shortest-path-algorithms](https://github.com/aeg58/shortest-path-algorithms) | C | BFS, Dijkstra and A* over 1,000 vertices on hand-written queues and heaps; the A* heuristic is scaled to stay **admissible**, so it provably matches Dijkstra |
 | [max-flow-min-cost](https://github.com/aeg58/max-flow-min-cost) | C++ | Edmonds–Karp and min-cost max flow written from scratch on a residual graph, with complexity analysis |
 | [algorithm-task-3](https://github.com/aeg58/algorithm-task-3) | C | Vehicle Routing Problem: nearest-neighbour + 2-opt, time-limited ILS, exact backtracking, independent route validator |
-| [clustering-algorithms-comparison](https://github.com/aeg58/clustering-algorithms-comparison) | Python | Seven clustering algorithms, six validation metrics — and the finding that the best silhouette score selects the *least* informative model |
-| [snake-game-js](https://github.com/aeg58/snake-game-js) | JavaScript | Game rules isolated from rendering, seven unit tests on GitHub Actions CI |
-| [statistical-analysis-report](https://github.com/aeg58/statistical-analysis-report) | Python · LaTeX | Reproducible pipeline: every table and figure in the report is regenerated by script, none copied by hand |
-| [budget-planner](https://github.com/aeg58/budget-planner) | Java | MVC, Singleton and Observer across 2,400 lines; passwords derived with **PBKDF2-HMAC-SHA256**, iteration count stored per record, constant-time verification |
+| [recursive-file-copy](https://github.com/aeg58/recursive-file-copy) | C | `cp -r` over raw Linux system calls, interrupt-safe: `SIGINT` unlinks the partially written file |
+| [clustering-algorithms-comparison](https://github.com/aeg58/clustering-algorithms-comparison) | Python | Seven clustering algorithms, six validation metrics — and the finding that the best silhouette score picks the *least* informative model |
+| [statistical-analysis-report](https://github.com/aeg58/statistical-analysis-report) | Python · LaTeX | Reproducible pipeline: every table and figure in the report is regenerated by script |
+| [budget-planner](https://github.com/aeg58/budget-planner) | Java | MVC, Singleton and Observer; passwords derived with **PBKDF2-HMAC-SHA256**, constant-time verification |
 | [conference-hall-reservation](https://github.com/aeg58/conference-hall-reservation) | Java | Swing desktop app, inheritance-based user/admin roles, date-time conflict checks |
-| [shortest-path-algorithms](https://github.com/aeg58/shortest-path-algorithms) | C | BFS, Dijkstra and A* over 1,000 vertices, each on a hand-written queue or binary heap; the A* heuristic is scaled to be **admissible**, so it provably matches Dijkstra |
-| [tourism-equipment-rental-uml](https://github.com/aeg58/tourism-equipment-rental-uml) | UML | Requirements engineering: 16 functional requirements, 9 business rules, seven UML models kept consistent with each other |
+| [snake-game-js](https://github.com/aeg58/snake-game-js) | JavaScript | Game rules isolated from rendering, unit-tested on GitHub Actions CI |
+| [tourism-equipment-rental-uml](https://github.com/aeg58/tourism-equipment-rental-uml) | UML | Requirements engineering: 16 functional requirements, 9 business rules, seven consistent UML models |
+
+---
 
 ## Technologies
 
 **Languages:** TypeScript, JavaScript, Python, Java, C, C++, SQL  
-**Backend & Data:** Next.js, Node.js, REST APIs, Prisma, MySQL, SQLite, Auth.js, Zod  
-**Frontend:** React, Tailwind CSS  
-**Data & Analysis:** NumPy, pandas, scikit-learn, SciPy, Matplotlib, LaTeX  
+**Web & backend:** Next.js, React, Node.js, REST APIs, Prisma, Auth.js, Zod, Tailwind CSS, Model Context Protocol  
+**Data:** MySQL, PostgreSQL, SQLite · pandas, NumPy, scikit-learn, SciPy, Matplotlib, LaTeX  
 **Systems:** POSIX threads, Linux system calls, signal handling, algorithm design and complexity analysis  
-**Practice:** Unit testing (JUnit 5, node:test), CI, relational data modeling, secure password storage, requirements analysis and UML  
-**Tools & Infrastructure:** Git, GitHub Actions, Linux, Nginx, PM2, Maven, Make
+**Practice:** Authorization design, concurrency control, unit and end-to-end testing (Vitest, node:test, Playwright, JUnit 5), requirements analysis and UML  
+**Infrastructure:** Git, GitHub Actions, GHCR, Docker, Caddy, nginx, Linux
 
-## Verified Credentials
+## Verified credentials
 
 **Role certifications**
 
