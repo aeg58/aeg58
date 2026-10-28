@@ -90,6 +90,23 @@ MCP gateway that lets an AI assistant read client ad and marketplace accounts br
 </tr>
 </table>
 
+## Personal project
+
+<table>
+<tr>
+<td valign="top">
+<a href="https://github.com/aeg58/second-brain-case-study"><img src="assets/projects/second-brain.svg" alt="2ndBrain pipeline diagram" width="100%"></a>
+
+### [2ndBrain](https://github.com/aeg58/second-brain-case-study)
+<sub>Personal project · Designer & Developer · in daily use</sub>
+
+A personal knowledge system that gives my AI coding sessions a memory: sessions, documents, chats and voice notes are masked into an Obsidian vault, searched in Turkish with keyword + vector ranking, and injected into every Claude Code session through hooks. Measured on a 189-question evaluation set written by an independent agent: the right page is in the top 5 for **94.7%** of questions.
+
+<img src="https://img.shields.io/badge/Python-standard%20library-14232c?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/SQLite-FTS5%20%2B%20vectors-14232c?style=flat-square&logo=sqlite&logoColor=white"> <img src="https://img.shields.io/badge/Claude%20Code-hooks-1f6f8b?style=flat-square"> <img src="https://img.shields.io/badge/tests-358-1f6f8b?style=flat-square"> <a href="https://github.com/aeg58/second-brain-case-study"><img src="https://img.shields.io/badge/Read%20the%20case%20study-%E2%86%92-1f6f8b?style=flat-square&logo=github"></a>
+</td>
+</tr>
+</table>
+
 ## Systems, algorithms & data
 
 Individual coursework, documented as standalone repositories; each README states the course context.

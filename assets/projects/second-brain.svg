@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="300" viewBox="0 0 1120 300" role="img" aria-label="2ndBrain: sources are masked into a vault, indexed with keyword and vector search, and injected into Claude Code sessions">
+  <style>
+    .t { font: 500 14px ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; fill: #e8eef0; }
+    .s { font: 400 12px ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; fill: #86a0aa; }
+    .k { font: 600 13px ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace; fill: #a8e6a3; }
+    .pkt { offset-path: path("M180 150 H940"); animation: go 4.2s linear infinite; }
+    .p2 { animation-delay: -1.4s; } .p3 { animation-delay: -2.8s; }
+    @keyframes go { from { offset-distance: 0%; } to { offset-distance: 100%; } }
+    @media (prefers-reduced-motion: reduce) { .pkt { animation: none; } }
+  </style>
+  <rect width="1120" height="300" rx="10" fill="#101d24"/>
+  <g stroke="#24353e" stroke-width="1"><path d="M0 75H1120M0 150H1120M0 225H1120M160 0V300M320 0V300M480 0V300M640 0V300M800 0V300M960 0V300"/></g>
+  <g transform="translate(28 66)">
+    <rect width="150" height="30" rx="8" fill="#15232b" stroke="#2c3f49"/><text class="t" x="75" y="20" text-anchor="middle">sessions</text>
+    <rect y="40" width="150" height="30" rx="8" fill="#15232b" stroke="#2c3f49"/><text class="t" x="75" y="60" text-anchor="middle">documents</text>
+    <rect y="80" width="150" height="30" rx="8" fill="#15232b" stroke="#2c3f49"/><text class="t" x="75" y="100" text-anchor="middle">chats</text>
+    <rect y="120" width="150" height="30" rx="8" fill="#15232b" stroke="#2c3f49"/><text class="t" x="75" y="140" text-anchor="middle">voice notes</text>
+  </g>
+  <path d="M180 150 H940" stroke="#2c3f49" stroke-width="2" stroke-dasharray="4 5"/>
+  <g transform="translate(232 120)"><rect width="140" height="60" rx="10" fill="#17323d" stroke="#5cb8d6" stroke-width="1.5"/><text class="t" x="70" y="28" text-anchor="middle">mask</text><text class="s" x="70" y="46" text-anchor="middle">[GİZLİ:type]</text></g>
+  <g transform="translate(424 112)"><rect width="150" height="76" rx="10" fill="#15232b" stroke="#2c3f49"/><text class="t" x="75" y="30" text-anchor="middle">vault</text><text class="s" x="75" y="50" text-anchor="middle">raw never edited</text></g>
+  <g transform="translate(626 112)"><rect width="160" height="76" rx="10" fill="#17323d" stroke="#5cb8d6" stroke-width="1.5"/><text class="t" x="80" y="30" text-anchor="middle">hybrid search</text><text class="s" x="80" y="50" text-anchor="middle">FTS5 + vectors · RRF</text></g>
+  <g transform="translate(944 120)"><rect width="150" height="60" rx="10" fill="#15232b" stroke="#2c3f49"/><text class="t" x="75" y="28" text-anchor="middle">Claude Code</text><text class="s" x="75" y="46" text-anchor="middle">hooks inject facts</text></g>
+  <circle class="pkt" r="5" fill="#5cb8d6"/><circle class="pkt p2" r="5" fill="#5cb8d6"/><circle class="pkt p3" r="5" fill="#5cb8d6"/>
+  <text class="s" x="28" y="36">personal knowledge system · Python standard library only</text>
+  <text class="k" x="626" y="230">hit@5 94.7% · "not in the vault" beats inventing</text>
+</svg>
